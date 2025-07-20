@@ -58,3 +58,18 @@ console.log("Authentication Status:", authenticationStatus);
 //#endregion
 
 
+//#region Practice Task
+let role = "Employee";
+let hasAccess;
+if(role==="Employee")
+    hasAccess = "Authorized to have access to Dietary Services";
+else if(role==="Enrolled Member")
+    hasAccess = "Authorized to have access to Dietary Services and one-to-one interaction with dietician";
+else if(role==="Subscriber")
+    hasAccess = "Authorized to have partial access to facilitate Dietary Services only"
+else
+    hasAccess = "Need to enroll or at least subscribe first to avail this facility."
+
+console.log("Has Access to : ", hasAccess);
+//#endregion
+
